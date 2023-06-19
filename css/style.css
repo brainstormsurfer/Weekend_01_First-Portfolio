@@ -237,4 +237,5 @@
         box-shadow: inset 0px 0px 85px var(--box-primary-color);
         width: calc(max(100% - 20%, 350px));
         margin: 20px auto;
+        font-style: italic;
       }
