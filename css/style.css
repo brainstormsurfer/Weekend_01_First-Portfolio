@@ -76,7 +76,6 @@
 
       .sp_secondary {
         color: var(--box-hover-color);
-        cursor: pointer;
       }
 
       .bg-container {
@@ -185,21 +184,22 @@
       }
 
       #img_hero:active { 
-        box-shadow: 0px 0px 15px 15px rgb(255, 0, 0);
+        box-shadow: 0px 0px 25px 15px rgb(255, 0, 0);
       }
    
       .sp-adams {
         border: 1px solid transparent;
         box-shadow: 0px 0px 40px 10px transparent;
         color: --main-font-color;
-        font-weight: bold; 
+        font-weight: bold;        
       }
       
-      .sp-adams:hover  {    
-        box-shadow: 0px 0px 40px 20px rgb(255, 0, 0);
+      .sp-adams:hover  {  
+        font-style: italic;
+        border: 4px red dashed;
+        box-shadow: 0px 0px 45px 25px rgb(255, 0, 0);
         color: red;
-        font-weight: bold;
-        font-size: 26px;
+        font-size: 25px;
         border-radius: 50%;   
         cursor:wait;     
         padding: 15px;
