@@ -216,7 +216,7 @@
         padding: 20px;
         border-radius: 25px;
         box-shadow: inset 0px 0px 85px var(--box-primary-color);
-        width: calc(max(100% - 20%, 350px));
+        width: calc(max(100% - 17%, 350px));
         margin: 20px auto;
         font-style: italic;
         font-size: 1.1em;
